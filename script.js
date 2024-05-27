@@ -63,3 +63,81 @@ let usuario = { nombre: "alex", edad: 23, ciudad: "bogota", ubicacion:{ latitud:
 console.log(usuario)
 console.log(usuario.nombre)
 console.log(usuario.ubicacion.latitud)
+let espaciovacio = null
+console.log(usuario.apellido)
+let algo
+console.log(algo)
+
+const noesnumero= NaN
+const multiplication = 10* "hola"
+console.log(multiplication)
+
+
+
+const listaanimales = [ 
+    "perro",
+    "gato",
+    "oso",
+    "gallina"
+]
+    console.log("tamaño del array", listadeanimales.length
+    )
+    for(let i= 0; i < listadeanimales.length;i++){ 
+        console.log(i)
+        console.log(listadeanimales [i])
+    }
+for(let contador =0; contador ===10; contador=contador+1) {console.log(contador)
+    console.log(listadeanimales[contador])
+}
+
+
+
+
+let numero = 1  
+if (numero===10){
+    console.log("numero es 10")
+} else if(numero ===11) {
+    console.log("numero es 11")
+} else if (numero===12) {
+    console.log("numero es 12")
+} else{
+    console.log("no es ni 10 ni 11 ni 12 ")
+}
+
+let texto= "c"
+if (texto ==="a"//texto==="b"// texto==="c"){
+    console.log("la condicion es verdadera")    
+} else {
+    console.log(el texto no es ni "a" ni "b")
+}
+
+let numero3 = 20
+if (numero3> 0 && numero3 < 10){
+    console.log("nuestro numero esta entre el 0 y el 10")
+} else{
+    console.log("nuestro numero no esta entre el 0 y el 10")
+}
+
+let contador= 0
+while (contador< 5){
+    console.log(contador)
+    console.log(listaanimales[contador])
+
+    contador++
+}
+
+function sumar (valor1,valor2){
+    console.log ("parametro1:",valor1)
+    console.log ("parametro1:",valor2)
+    return resultado
+
+    const sumar =()> {}
+
+
+    console.log("esta funcion esta sumando")
+    console.log("mostrar el resultado")
+}
+sumar(5,10)
+sumar(20,40)
+
+console.log("resultado de la suma",sumar(5,10))
